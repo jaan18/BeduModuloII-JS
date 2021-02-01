@@ -17,8 +17,10 @@ console.log(restar(4, 5)); */
 /* let perimetro = (a, b) => `Tu perimetro del rectángulo es ${2 * a + 2 * b}`;
 console.log(perimetro(2, 2));
  */
-let election = prompt(
-  "Dame una figura, circulo, triangulo, rectangulo, cuadrado"
+
+// Figures by election
+/* let election = prompt(
+  "Elige una figura, circulo, triangulo, rectangulo, cuadrado"
 );
 
 switch (election) {
@@ -47,9 +49,30 @@ switch (election) {
 }
 
 function perimetrorectangulo(a, b) {
-  alert(`Tu perimetro del rectángulo es ${2 * a + 2 * b}`);
+  let resRectangulo = 2 * a + 2 * b;
+  return resRectangulo;
 }
 
 function perimetrorTriangulo(a, b, c) {
-  alert(`Tu perimetro del triangulo es ${a + b + c}`);
+  let resTriangulo = a + b + c;
+  return resTriangulo;
 }
+
+function perimetroCirculo(radio) {
+  let resCirculo = 2 * Math.PI * radio;
+  return resCirculo;
+}
+
+function perimetroCuadrado(a) {
+  let resCuadrado = a * a;
+  return resCuadrado;
+} */
+
+// Funcion anonima es para ejecutarla solamente una vez
+
+// immediately executed function
+(function () {
+  console.log("Hola");
+})();
+
+(() => "Hola")(); //sugar sintax

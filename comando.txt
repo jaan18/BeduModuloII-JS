@@ -1,0 +1,1 @@
+ssh -i ec2-bedu-bkfun.pem ubuntu@ec2-54-71-194-120.us-west-2.compute.amazonaws.com
